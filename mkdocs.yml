@@ -38,6 +38,7 @@ plugins:
       enabled: !ENV [CI, false]
   - search:
       lang: pt
+  - pdf-export
   - tags
 
 extra:
