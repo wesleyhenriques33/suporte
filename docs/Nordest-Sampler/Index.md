@@ -1,3 +1,9 @@
+---
+title: Comece por aqui
+description: Documentação de apoio e Manual de uso
+icon: simple/fastapi
+---
+
 # Comece por aqui
 
 Esta é uma página que contem todas as informações sobre o [Nordest Sampler](https://www.youtube.com/watch?v=_G5LDz5CN1I), um plugin espetacular que contém uma vasta biblioteca de sons e trás novas possibilidades no mundo dos instrumentos virtuais.

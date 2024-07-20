@@ -1,3 +1,7 @@
+---
+icon: material/check-decagram
+---
+
 # Como instalar
 
 O processo de instalação do [Nordest Sampler](https://www.youtube.com/watch?v=_G5LDz5CN1I) é bastante simples e prático. Após confirmada a sua compra, os arquivos para download são enviados automaticamente no endereço de e-mail informado na compra.
@@ -29,6 +33,10 @@ Abaixo, está todo o passo a passo de instalação para os devidos sistemas oper
     ```
     C:\Program Files\Common Files\VST3
     ```
+    
+    !!! tip "Dica importante"
+
+        Clicando no ícone :material-content-copy: acima, você pode copiar o diretório para a sua área de transferência e em seguida pressionar as teclas ++windows+r para abrir o comando "Executar", usar o atalho ++ctrl+v++ para colar o endereço e pressionar ++enter++ .Logo em seguida, a pasta indicada será aberta automaticamente numa nova aba do Explorer.
 
 4. Feito isto, basta apenas abrir a sua DAW preferida e inserir o Nordest Sampler em alguma track de instrumentos virtuais MIDI e solicitar a sua chave de ativação via [e-mail](mailto:homestudio7rec@gmail.com) ou pelo nosso [WhatsApp](https://wa.me/5547920017909).
 
@@ -61,10 +69,9 @@ Abaixo, está todo o passo a passo de instalação para os devidos sistemas oper
     /Biblioteca/Audio/Plug-Ins/VST3
     ```
 
-    !!! info "Dica importante"
+    !!! tip "Dica importante"
 
-        Você também pode clicar no Finder e abrir uma pasta qualquer em seu macOS, e em seguida pressionar as teclas :material-apple-keyboard-command: + Shift: + C para localizar a pasta "Biblioteca". 
-        
+        Você também pode clicar no Finder e abrir uma pasta qualquer em seu macOS, e em seguida pressionar as teclas ++cmd+shift+c++ para localizar a pasta "Biblioteca".
         Ela sempre estará localizada no disco local onde está instalado o sistema operacional do seu macOS.
 
     ![Go To Folder](../assets/images/Go-To-Folder.gif)

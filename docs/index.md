@@ -1,4 +1,12 @@
-# Home
+---
+title: Home
+hide:
+  - navigation
+  - toc
+  - footer
+---
+
+# Suporte
 
 Sejam bem-vindos! :rocket:
 
