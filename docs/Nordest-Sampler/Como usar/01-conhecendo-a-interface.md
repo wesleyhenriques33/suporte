@@ -30,7 +30,7 @@ Nos próximos tópicos, traremos diversas informações completas sobre cada uma
 
 ## 01. Sound List
 
-![Sound List](../assets/images/Sound-List.webp)
+[![Sound List](https://i.postimg.cc/8cZFRj0T/Nordest-Sampler-Sound-List.png)](https://postimg.cc/rRtFcFTH)
 
 Aqui nós temos quatro seções, onde cada uma delas representa exatamente:
 
@@ -45,4 +45,22 @@ Aqui nós temos quatro seções, onde cada uma delas representa exatamente:
 
 Como o próprio nome já diz, este botão é dedicado a controlar o volume de saída geral de áudio dentro do Nordest Sampler
 
-## 03. 
+## 03. Sound Modify
+
+Nesta seção você tem acesso aos parâmetros básicos de modulação das amostras:
+    - Attack: altera o volume de entrada do som;
+    - Decay: altera tempo que a nota vai levar para decair o áudio;
+    - Sustain: altera o tempo que o som se mantém após ser acionado o Decay;
+    - Release: altera o tempo em que a nota vai durar após soltar as teclas/Pedal de sustain.
+
+## 04. FX Mixer
+
+Nesta seção você tem um acesso de controle rápido de mixagem para os seguintes efeitos:
+
+!!! note ""
+
+    - [x]   **Drive:** aumenta a distorção sonora no som, gerada pelo efeito Distortion/Cab;
+    - [x]   **Delay:** aumenta o efeito do plugin delay, gerado dentro do Nordest Sampler;
+    - [x]   **Chorus:** aumenta o efeito gerado pelo efeito de chorus do plugin;
+    - [x]   **Reverb:** aumenta o efeito de reverberação que o plugin de reverb trás.
+
