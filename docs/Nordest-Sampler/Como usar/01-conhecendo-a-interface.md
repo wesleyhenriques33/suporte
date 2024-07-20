@@ -30,7 +30,7 @@ Nos próximos tópicos, traremos diversas informações completas sobre cada uma
 
 ## 01. Sound List
 
-![Sound List](../assets/images/Display-Library-Sound.png)
+![Sound List](../assets/images/Sound-List.webp)
 
 Aqui nós temos quatro seções, onde cada uma delas representa exatamente:
 
