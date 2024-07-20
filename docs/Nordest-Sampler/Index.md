@@ -1,7 +1,7 @@
 ---
 title: Comece por aqui
 description: Documentação de apoio e Manual de uso
-icon: simple/fastapi
+icon: simple/rocket
 ---
 
 # Comece por aqui
