@@ -30,16 +30,12 @@ Nos próximos tópicos, traremos diversas informações completas sobre cada uma
 
 ## 01. Sound List
 
-[![Sound List](https://i.postimg.cc/8cZFRj0T/Nordest-Sampler-Sound-List.png)](https://postimg.cc/rRtFcFTH)
-
 Aqui nós temos quatro seções, onde cada uma delas representa exatamente:
 
-!!! note ""
-
-    - [x]   **Module View:** uma tela que mostra o nome do módulo de sons que está selecionado;
-    - [x]   **Group View (Instrument View):** uma tela que mostra o som do módulo selecionado que está ativo;
-    - [x]   **Module NEXT/PREV:** navega entre os módulos de sons ou expansões de samples disponíveis dentro do plugin;
-    - [x]   **Sound NEXT/PREV:** navega entre os grupos ou instrumentos de cada módulo que estiver selecionado.
+- [x]   **Module View:** uma tela que mostra o nome do módulo de sons que está selecionado;
+- [x]   **Group View (Instrument View):** uma tela que mostra o som do módulo selecionado que está ativo;
+- [x]   **Module NEXT/PREV:** navega entre os módulos de sons ou expansões de samples disponíveis dentro do plugin;
+- [x]   **Sound NEXT/PREV:** navega entre os grupos ou instrumentos de cada módulo que estiver selecionado.
 
 ## 02. Master Volume
 
@@ -48,19 +44,62 @@ Como o próprio nome já diz, este botão é dedicado a controlar o volume de sa
 ## 03. Sound Modify
 
 Nesta seção você tem acesso aos parâmetros básicos de modulação das amostras:
-    - Attack: altera o volume de entrada do som;
-    - Decay: altera tempo que a nota vai levar para decair o áudio;
-    - Sustain: altera o tempo que o som se mantém após ser acionado o Decay;
-    - Release: altera o tempo em que a nota vai durar após soltar as teclas/Pedal de sustain.
+
+- [x]   **Attack**: altera o volume de entrada do som;
+- [x]   **Decay:** altera tempo que a nota vai levar para decair o áudio;
+- [x]   **Sustain:** altera o tempo que o som se mantém após ser acionado o Decay;
+- [x]   **Release:** altera o tempo em que a nota vai durar após soltar as teclas/Pedal de sustain.
 
 ## 04. FX Mixer
 
 Nesta seção você tem um acesso de controle rápido de mixagem para os seguintes efeitos:
 
-!!! note ""
+- [x]   **Drive:** aumenta a distorção sonora no som, gerada pelo efeito Distortion/Cab;
+- [x]   **Delay:** aumenta o efeito do plugin delay, gerado dentro do Nordest Sampler;
+- [x]   **Chorus:** aumenta o efeito gerado pelo efeito de chorus do plugin;
+- [x]   **Reverb:** aumenta o efeito de reverberação que o plugin de reverb trás.
 
-    - [x]   **Drive:** aumenta a distorção sonora no som, gerada pelo efeito Distortion/Cab;
-    - [x]   **Delay:** aumenta o efeito do plugin delay, gerado dentro do Nordest Sampler;
-    - [x]   **Chorus:** aumenta o efeito gerado pelo efeito de chorus do plugin;
-    - [x]   **Reverb:** aumenta o efeito de reverberação que o plugin de reverb trás.
+## 05. Instrument Settings
 
+Nesta seção você vai encontrar ajustes avançados para controlar ajustes de LFO para o módulo de sons selecionado.
+Dentre os parâmetros a seguir, vamos explicar passo a passo como cada um deles funciona:
+
+:fontawesome-solid-file-waveform: **LFO WAVEFORM:** É o controle responsável por escolher o tipo de onda que o oscilador vai usar paracontrole de LFO do som.
+
+:fontawesome-solid-file-waveform: **LFO SOURCE:** É o controle responsável por escolher qual tipo de parâmetro MIDI vai controlar oefeito gerado via LFO, jutamente da WAVEFORM.
+
+:fontawesome-solid-file-waveform: **LFO DESTINATION:** Este controle diz para onde vai o sinal LFO gerado, em conjunto com com oparâmetro MIDI que foi determinado na seção acima.
+
+:material-knob: **FILTER TYPE:** Escolhe o tipo de filtro de CUTOFF sonora que será usado no plugin.
+
+:material-knob: **CUTOFF FREQ:** Determina a região de frequência em que o filtro de CUTOFF vai começar a atuar.
+
+:material-menu-open: **VELOCITY CURVE:** Como o próprio nome sugere, este menu disponibiliza alguns ajustes de veloticy que se adaptamà sua necessidade.
+
+:material-menu-open: **CPU MODE:** Este controle é responsável por otimizar o processamento da instância aberta deste plugin. Você pode ajustar de acordo com a sua preferência, tendo em vista que em alguns casos isto irá impactar diretamente no seu som, mesmoque de forma imperceptível.
+
+:material-menu-open: **VOICE MODE:** Controla a forma como as wavs se comportam, sendo elas em mono monofônico, polifônico ou glide.
+
+:material-knob: **GROUP GAIN:** Este controle é responsável por controlar o ganho de volume apenas do grupo/instrumento selecionadodentro do módulo de sons que estiver aberto no momento, não afetando de forma geral o volume dos demais grupos/instrumentos.
+
+:material-knob: **GLIDE TIME:** Se o VOICE MODE estiver em mono ou glide, este parâmetro irá controlar a velocidade de "ligadura" queo efeito terá entre uma nota e outra. É muito semelhante a controles em plugins de Synths e outros.
+
+## 06. Delay
+
+Esta seção vai controlar todos os parâmetros disponíveis para o efeito de Delay que se encontra dentro do Nordest Sampler.
+Abaixo estão listados todos os parâmetros:
+
+!!! abstract ""
+    :fontawesome-solid-toggle-off: **TOGGLE ON/OFF:** Este botão liga e desliga o efeito;
+    :material-knob: **TIME:** Determina a velocidade que o efeito irá usar para se repetir, em milisegundos;
+    :material-menu-open: **SYNC L/R** Determina a velocidade que o efeito se repetirá, seguindo o BPM que está definido dentro da sua DAW;
+    :material-knob: **FEEDBACK:** Determina o número de repetições que o efeito de delay terá após ser iniciado;
+    :material-knob: **VELOTICY OVER**: Determina o volume que os serão tocados no geral. Se estiver completamente para a esquerda, o som irá soar de forma padrão. Se estiver completamente para esquerda, tudo será tocado como se estivesse no veloticy máximo;
+
+## 07. Chorus - Distortion/Cab
+
+Nesta seção você tem acesso aos controles destinados aos efeitos de chorus, distorção e cabinet simulator.
+Abaixo estão listados todos os parâmetros:
+
+!!! abstract ""
+    :fontawesome-solid-toggle-off: **TOGGLE ON/OFF:** Estes 3 botões ligam e desligam os efeitos desta seção;
