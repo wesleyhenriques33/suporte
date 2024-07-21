@@ -34,8 +34,7 @@ theme:
 
 plugins:
   - offline
-  - social:
-      enabled: !ENV [CI, false]
+  - social
   - search:
       lang: pt
   - tags
