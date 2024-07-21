@@ -34,7 +34,6 @@ theme:
 
 plugins:
   - offline
-  - drawio_file
   - social:
       enabled: !ENV [CI, false]
   - search:
