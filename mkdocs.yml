@@ -42,7 +42,8 @@ plugins:
   - glightbox
   - offline
   - drawio_file
-  - social
+  - social:
+      enabled: !ENV [CI, false]
   - search:
       lang: pt
   - tags
