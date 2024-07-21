@@ -33,12 +33,6 @@ theme:
       accent: indigo
 
 plugins:
-  - site-urls:
-      attributes:
-        - href
-        - src
-        - data
-        - data-url
   - glightbox
   - offline
   - drawio_file
