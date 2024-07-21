@@ -3,6 +3,8 @@ theme:
   name: material
   logo: assets/images/logo.svg
   icon: assets/images/logo.svg
+  watch:
+  - docs/assets/images
   features:
     - navigation.tabs
     - navigation.sections
@@ -60,6 +62,8 @@ extra_css:
   - stylesheets/glightbox.min.css
 
 markdown_extensions:
+  - smarty
+  - sane_lists
   - tables
   - toc:
       slugify: !!python/object/apply:pymdownx.slugs.slugify
@@ -67,6 +71,7 @@ markdown_extensions:
           case: lower
       permalink: true
       title: Nesta página
+      separator: "_"
   - pymdownx.tabbed:
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:

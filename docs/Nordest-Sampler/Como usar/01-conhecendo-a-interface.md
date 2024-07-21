@@ -8,9 +8,9 @@ O [Nordest Sampler](https://www.youtube.com/watch?v=_G5LDz5CN1I) possui uma estr
 
 Nesta imagem, listado em seções numéricas, temos todas as funcionalidades disponíveis para uso no Nordest Sampler:
 
-<!-- draw.io diagram -->
-<div class="mxgraph" style="" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;lightbox&quot;:false,&quot;nav&quot;:true,&quot;edit&quot;:&quot;_blank&quot;,&quot;url&quot;:&quot;https://drive.google.com/uc?id=187ZzlEMPq_xXJx_IcFBWjeE8EUc0uP_V&amp;export=download&quot;}"></div>
-<script type="text/javascript" src="https://viewer.diagrams.net/embed2.js?&fetch=https%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D187ZzlEMPq_xXJx_IcFBWjeE8EUc0uP_V%26export%3Ddownload"></script>
+--8<-- "Nordest Sampler - Screen.html"
+
+![Nordest Sampler](../assets/images/Nordest%20Sampler%20-%20Screen.html)
 
 !!! info "Parâmetros de controle do plugin"
     |   Seção                     | Descrição                                                                           |
@@ -105,3 +105,7 @@ Nesta seção você tem acesso aos controles destinados aos efeitos de chorus, d
 Abaixo estão listados todos os parâmetros:
 
 :fontawesome-solid-toggle-off: **TOGGLE ON/OFF:** Estes 3 botões ligam e desligam os efeitos desta seção;
+
+
+
+[Nordest-Sampler]: /docs/assets/images/Nordest%20Sampler%20-%20Screen.html
