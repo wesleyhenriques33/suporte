@@ -89,17 +89,19 @@ Dentre os parâmetros a seguir, vamos explicar passo a passo como cada um deles 
 Esta seção vai controlar todos os parâmetros disponíveis para o efeito de Delay que se encontra dentro do Nordest Sampler.
 Abaixo estão listados todos os parâmetros:
 
-!!! abstract ""
-    :fontawesome-solid-toggle-off: **TOGGLE ON/OFF:** Este botão liga e desliga o efeito;
-    :material-knob: **TIME:** Determina a velocidade que o efeito irá usar para se repetir, em milisegundos;
-    :material-menu-open: **SYNC L/R** Determina a velocidade que o efeito se repetirá, seguindo o BPM que está definido dentro da sua DAW;
-    :material-knob: **FEEDBACK:** Determina o número de repetições que o efeito de delay terá após ser iniciado;
-    :material-knob: **VELOTICY OVER**: Determina o volume que os serão tocados no geral. Se estiver completamente para a esquerda, o som irá soar de forma padrão. Se estiver completamente para esquerda, tudo será tocado como se estivesse no veloticy máximo;
+:fontawesome-solid-toggle-off: **TOGGLE ON/OFF:** Este botão liga e desliga o efeito;
+
+:material-knob: **TIME:** Determina a velocidade que o efeito irá usar para se repetir, em milisegundos;
+
+:material-menu-open: **SYNC L/R** Determina a velocidade que o efeito se repetirá, seguindo o BPM que está definido dentro da sua DAW;
+
+:material-knob: **FEEDBACK:** Determina o número de repetições que o efeito de delay terá após ser iniciado;
+
+:material-knob: **VELOTICY OVER**: Determina o volume que os serão tocados no geral. Se estiver completamente para a esquerda, o somirá soar de forma padrão. Se estiver completamente para esquerda, tudo será tocado como se estivesse no veloticy máximo;
 
 ## 07. Chorus - Distortion/Cab
 
 Nesta seção você tem acesso aos controles destinados aos efeitos de chorus, distorção e cabinet simulator.
 Abaixo estão listados todos os parâmetros:
 
-!!! abstract ""
-    :fontawesome-solid-toggle-off: **TOGGLE ON/OFF:** Estes 3 botões ligam e desligam os efeitos desta seção;
+:fontawesome-solid-toggle-off: **TOGGLE ON/OFF:** Estes 3 botões ligam e desligam os efeitos desta seção;
