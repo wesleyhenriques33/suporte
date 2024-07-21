@@ -33,7 +33,6 @@ theme:
       accent: indigo
 
 plugins:
-  - glightbox
   - offline
   - drawio_file
   - social:
