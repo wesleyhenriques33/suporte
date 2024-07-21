@@ -1,10 +1,10 @@
 site_name: Suporte
+repo_url: https://github.com/wesleyhenriques33/suporte
+repo_name: Wesley Henriques - Suporte
 theme:
   name: material
   logo: assets/images/logo.svg
   icon: assets/images/logo.svg
-  watch:
-  - docs/assets/images
   features:
     - navigation.tabs
     - navigation.sections
@@ -33,11 +33,16 @@ theme:
       accent: indigo
 
 plugins:
+  - site-urls:
+      attributes:
+        - href
+        - src
+        - data
+        - data-url
   - glightbox
   - offline
   - drawio_file
-  - social:
-      enabled: !ENV [CI, false]
+  - social
   - search:
       lang: pt
   - tags

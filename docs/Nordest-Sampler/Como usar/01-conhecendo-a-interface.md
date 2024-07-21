@@ -8,9 +8,7 @@ O [Nordest Sampler](https://www.youtube.com/watch?v=_G5LDz5CN1I) possui uma estr
 
 Nesta imagem, listado em seções numéricas, temos todas as funcionalidades disponíveis para uso no Nordest Sampler:
 
---8<-- "Nordest Sampler - Screen.html"
-
-![Nordest Sampler](../assets/images/Nordest%20Sampler%20-%20Screen.html)
+![Nordest Sampler - Presentation](../../assets/images/nordest-sampler-presentation.svg)
 
 !!! info "Parâmetros de controle do plugin"
     |   Seção                     | Descrição                                                                           |
@@ -105,7 +103,3 @@ Nesta seção você tem acesso aos controles destinados aos efeitos de chorus, d
 Abaixo estão listados todos os parâmetros:
 
 :fontawesome-solid-toggle-off: **TOGGLE ON/OFF:** Estes 3 botões ligam e desligam os efeitos desta seção;
-
-
-
-[Nordest-Sampler]: /docs/assets/images/Nordest%20Sampler%20-%20Screen.html
