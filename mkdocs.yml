@@ -33,10 +33,18 @@ theme:
       accent: indigo
 
 plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
   - offline
-  - social
+  - info:
+      enabled: true
+      enabled_on_serve: true
+  - social:
+      cards: true
+      enabled: !ENV [CI, false]
   - search:
       lang: pt
+  - print-site
   - tags
 
 extra:

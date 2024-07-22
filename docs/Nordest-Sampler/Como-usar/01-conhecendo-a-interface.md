@@ -28,6 +28,8 @@ Nos próximos tópicos, traremos diversas informações completas sobre cada uma
 
 ## 01. Sound List
 
+![Nordest Sampler - Sound List](../../assets/images/nordest-sampler-sound-list.svg)
+
 Aqui nós temos quatro seções, onde cada uma delas representa exatamente:
 
 - [x]   **Module View:** uma tela que mostra o nome do módulo de sons que está selecionado;
