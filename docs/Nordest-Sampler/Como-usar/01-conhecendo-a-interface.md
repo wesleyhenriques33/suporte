@@ -12,16 +12,16 @@ Nesta imagem, listado em seções numéricas, temos todas as funcionalidades dis
 
 **Seções do Nordest Sampler:**
 
-* [**01. Sound List**](#01_sound_list)
-* [**02. Master Volume**](#02_master_volume)
-* [**03. Sound Modify**](#03_sound_modify)
-* [**04. FX Mixer**](#04_fx_mixer)
-* [**05. Instrument Settings**](#05_instrument_settings)
-* [**06. Delay**](#06_delay)
-* [**07. Chorus/Distortion**](#07_chorus_-_distortioncab)
-* [**08. Reverb**](#08_reverb)
-* [**09. Velocity Amp**](#09_veloticy_amp)
-* [**10. Group List/Mode**](#10_group_listmode)
+* [**01. Sound List**](#01-sound-list)
+* [**02. Master Volume**](#02-master-volume)
+* [**03. Sound Modify**](#03-sound-modify)
+* [**04. FX Mixer**](#04-fx-mixer)
+* [**05. Instrument Settings**](#05-instrument-settings)
+* [**06. Delay**](#06-delay)
+* [**07. Chorus/Distortion**](#07-chorus--distortioncab)
+* [**08. Reverb**](#08-reverb)
+* [**09. Velocity Amp**](#09-veloticy-amp)
+* [**10. Group List/Mode**](#10-group-listmode)
 
 
 Nos próximos tópicos, traremos diversas informações completas sobre cada uma dessas Seções e como os seus ajustes podem afetar diretamente o som do seu instrumento virtual durante sua performance ou produção musical.
@@ -100,7 +100,7 @@ Abaixo estão listados todos os parâmetros:
 
 - [x]   **Veloticy Over**: Determina o volume que os serão tocados no geral. Se estiver completamente para a esquerda, o somirá soar de forma padrão. Se estiver completamente para esquerda, tudo será tocado como se estivesse no veloticy máximo;
 
-## 07. Chorus - Distortion/Cab
+## 07. Chorus & Distortion/Cab
 
 Nesta seção você tem acesso aos controles destinados aos efeitos de chorus, distorção e cabinet simulator.
 Abaixo estão listados todos os parâmetros:
@@ -130,8 +130,8 @@ Abaixo estão listados todos os parâmetros:
     Para entender melhor este controle, basta fazer uso dele em suas extremindades, ele completamente para a esquerda, serão audíveis todas as frequências agudas, ele completamente para a direita, serão dispersas com mais rapidez as frequências agudas, trazendo assim a característica de um Reverb mais Dark no seu som.
 
 - [x]   **Width:** Este controle regula a abertura stereo do efeito de Reverb no som;
-- [x]   **LFO Rate:** Este controle não está relacionado ao reverb, mas sim aos controles avançados da aba [Instrument Settings](#05_instrument_settings), e tem o propósito de regular a velocidade do LFO que gera sinais como trêmolo, auto pan e outros;
-- [x]   **LFO Depth:** Este controle também está relacionado aos parâmetros de LFO da aba [Instrument Settings](#05_instrument_settings), o qual regula exatamente a intensidade do efeito gerado pelo LFO.
+- [x]   **LFO Rate:** Este controle não está relacionado ao reverb, mas sim aos controles avançados da aba [Instrument Settings](#05-instrument-settings), e tem o propósito de regular a velocidade do LFO que gera sinais como trêmolo, auto pan e outros;
+- [x]   **LFO Depth:** Este controle também está relacionado aos parâmetros de LFO da aba [Instrument Settings](#05-instrument-settings), o qual regula exatamente a intensidade do efeito gerado pelo LFO.
 
 
 ## 09. Veloticy Amp
@@ -169,7 +169,7 @@ Como podemos ver, há diversas opções disponíveis para seleção dos grupos d
     Através de DAW's com o Ableton Live, ou qualquer outra que leia este comando MIDI você pode efetuar a troca do timbre, ou definindo o controle em algum botão do seu controlador.
 
 * **Program:** Esta forma de seleção faz com que o determinado grupo seja selecionado de acordo com o controle de **"Program Change"**, muito conhecido e disponível em qualquer equipamento MIDI;
-* **Manual:** Este forma de seleção faz com que o determinado grupo só esteja ativo de forma manual, para isto você pode ativá-lo através do controle de Group List ou através dos controles de **NEXT/PREV** dos grupos/instrumentos, disponíveis na aba de [Sound List](#01_sound_list).
+* **Manual:** Este forma de seleção faz com que o determinado grupo só esteja ativo de forma manual, para isto você pode ativá-lo através do controle de Group List ou através dos controles de **NEXT/PREV** dos grupos/instrumentos, disponíveis na aba de [Sound List](#01-sound-list).
 
 
 !!! danger "CUIDADO"
