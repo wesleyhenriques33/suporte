@@ -33,7 +33,13 @@ theme:
       accent: indigo
 
 plugins:
-  - search
+  - search:
+      lang: pt
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      pipeline:
+        - stemmer
+        - stopWordFilter
+        - trimmer
   - social:
       cards: true
       cards_layout_options:
@@ -42,9 +48,6 @@ plugins:
       enabled: !ENV [CI, false]
   - tags
   - offline
-  - search:
-      lang: pt
-  - drawio_file
   - print-site
 
 extra:
