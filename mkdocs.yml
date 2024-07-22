@@ -42,7 +42,6 @@ plugins:
         - stopWordFilter
         - trimmer
   - social:
-      cards: true
       cards_layout_options:
         background_color: "#ffc105"
         logo: docs/assets/images/logo.svg
