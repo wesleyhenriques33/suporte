@@ -10,19 +10,20 @@ Nesta imagem, listado em seções numéricas, temos todas as funcionalidades dis
 
 ![Nordest Sampler - Presentation](../../assets/images/nordest-sampler-presentation.svg)
 
+![Page-1](../../assets/images/nordest-sampler-presentation.drawio)
+
 !!! info "Parâmetros de controle do plugin"
-    |   Seção                     | Descrição                                                                           |
-    |   :----------------------   | :---------------------------------------------------------------------------        |
-    |   01. Sound List            | Exibição de timbres e módulos sonoros, com controles de NEXT/PREV para ambos        |
-    |   02. Master Volume         | Controla o volume geral de saída do plugin                                          |
-    |   03. Sound Modify          | Controles básicos attack, decay, sustain e release das amostras de áudio            |
-    |   04. FX Mixer              | Controles de mix dos efeitos: Drive, Delay, Chorus e Reverb                         |
-    |   05. Instrument Settings   | Trás ajustes de controle de LFO avançados, veloticy e outros                        |
-    |   06. Delay Section         | Mostra os parâmetros de ajustes e controles do Delay                                |
-    |   07. Chorus/Distortion     | Mostra os parâmetros de ajustes e controles do Chorus e Distortion                  |
-    |   08. Reverb                | Mostra os parâmetros de ajustes e controles do Reverb                               |
-    |   09. Velocity Amp          | Trás ajustes mais precisos de controle do Velocity                                  |
-    |   10. Group List/Mode       | Seletor de grupos manual com ajustes de seleção de grupos de forma personalizada    |
+
+    [01. Sound List](#01-sound-list)
+    [02. Master Volume](#02-master-volume) | Controla o volume geral de saída do plugin
+    [03. Sound Modify](#03-sound-modify) | Controles básicos attack, decay, sustain e release das amostras de áudio
+    [04. FX Mixer](#04-fx-mixer) | Controles de mix dos efeitos: Drive, Delay, Chorus e Reverb
+    [05. Instrument Settings](#05-instrument-settings) | Trás ajustes de controle de LFO avançados, veloticy e outros
+    [06. Delay](#06-delay) | Mostra os parâmetros de ajustes e controles do Delay
+    [07. Chorus/Distortion](#07-chorus---distortioncab) | Mostra os parâmetros de ajustes e controles do Chorus e Distortion
+    [08. Reverb](#08-reverb) | Mostra os parâmetros de ajustes e controles do Reverb
+    09. Velocity Amp | Trás ajustes mais precisos de controle do Velocity
+    10. Group List/Mode | Seletor de grupos manual com ajustes de seleção de grupos de forma personalizada
 
 Nos próximos tópicos, traremos diversas informações completas sobre cada uma dessas Seções e como os seus ajustes podem afetar diretamente o som do seu instrumento virtual durante sua performance ou produção musical.
 
@@ -30,7 +31,8 @@ Nos próximos tópicos, traremos diversas informações completas sobre cada uma
 
 ![Nordest Sampler - Sound List](../../assets/images/nordest-sampler-sound-list.svg)
 
-Aqui nós temos quatro seções, onde cada uma delas representa exatamente:
+Nesta seção nós temos a exibição de timbres e módulos sonoros, com controles de NEXT/PREV para ambos.
+Aqui nós temos alguns controles básicos, onde cada um deles representa exatamente:
 
 - [x]   **Module View:** uma tela que mostra o nome do módulo de sons que está selecionado;
 - [x]   **Group View (Instrument View):** uma tela que mostra o som do módulo selecionado que está ativo;
@@ -105,3 +107,31 @@ Nesta seção você tem acesso aos controles destinados aos efeitos de chorus, d
 Abaixo estão listados todos os parâmetros:
 
 - [x]   **Toggle ON/OFF:** Estes 3 botões ligam e desligam os efeitos desta seção;
+
+!!! info "Informação importante"
+
+    Um dos controles **Toggle ON/OFF** liga ou desliga o efeito de Cab Simulator ou Cabinet. Este controle simula um som gerado por um amplificador de guitarra, e funciona em formato de áudio **MONO**, ao habilitar este efeito certifique-se de que o seu som estará sendo mudado para **MONO** e você irá notar que haverá uma diferença notória.
+
+- [x]   **Frequency:** Este controle ajusta a velocidade que o chorus irá operar;
+- [x]   **Mod Depth:** Este controle ajusta a quantidade de modulação de pitch que o chorus vai gerar no som;
+- [x]   **Drive:** Este controle vai determinar a quantidade de distorção harmônica sobre o som dos instrumentos;
+- [x]   **Gain:** Este controel regula a quantidade de ganho de sinal gerado pelo Drive Distortion/Cabinet.
+
+## 08. Reverb
+
+Nesta seção você tem acesso aos controles destinados ao efeito de Reverb do Nordest Sampler.
+Abaixo estão listados todos os parâmetros:
+
+- [x]   **Toggle ON/OFF:** Este botão liga e desliga o efeito de Reverb;
+- [x]   **Size:** Este botão regula a duração do efeito de reverb, popularmente conhecido como tamanho ou size;
+- [x]   **Damping:** Este botão vai determinar a dispersação de frequências altas;
+
+!!! example "Exemplo de uso do Damping"
+
+    Para entender melhor este controle, basta fazer uso dele em suas extremindades, ele completamente para a esquerda, serão audíveis todas as frequências agudas, ele completamente para a direita, serão dispersas com mais rapidez as frequências agudas, trazendo assim a característica de um Reverb mais Dark no seu som.
+
+- [x]   **Width:** Este controle regula a abertura stereo do efeito de Reverb no som;
+- [x]   **LFO Rate:** Este controle não está relacionado ao reverb, mas sim aos controles avançados da aba [Instrument Settings](#05-instrument-settings), e tem o propósito de regular a velocidade do LFO que gera sinais como trêmolo, auto pan e outros;
+- [x]   **LFO Depth:** Este controle também está relacionado aos parâmetros de LFO da aba [Instrument Settings](#05-instrument-settings), o qual regula exatamente a intensidade do efeito gerado pelo LFO.
+
+##
