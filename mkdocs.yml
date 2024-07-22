@@ -48,7 +48,6 @@ plugins:
       enabled: !ENV [CI, false]
   - tags
   - offline
-  - print-site
 
 extra:
   social:
