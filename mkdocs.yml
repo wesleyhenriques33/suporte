@@ -46,6 +46,7 @@ plugins:
         - stopWordFilter
         - trimmer
   - social:
+      # enabled: !ENV [CI, false]
       cards_layout_options:
         background_color: "#ffc105"
         logo: docs/assets/images/logo.svg
@@ -53,6 +54,9 @@ plugins:
   - offline
 
 extra:
+  analytics:
+    provider: google
+    property: G-451199504
   social:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/wesleyhenriques.oficial
