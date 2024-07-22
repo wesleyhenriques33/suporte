@@ -68,6 +68,7 @@ extra_css:
   - stylesheets/glightbox.min.css
 
 markdown_extensions:
+  - footnotes
   - smarty
   - sane_lists
   - tables
