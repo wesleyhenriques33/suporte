@@ -62,44 +62,44 @@ Nesta seção você tem um acesso de controle rápido de mixagem para os seguint
 Nesta seção você vai encontrar ajustes avançados para controlar ajustes de LFO para o módulo de sons selecionado.
 Dentre os parâmetros a seguir, vamos explicar passo a passo como cada um deles funciona:
 
-:fontawesome-solid-file-waveform: **LFO WAVEFORM:** É o controle responsável por escolher o tipo de onda que o oscilador vai usar paracontrole de LFO do som.
+- [x]   **LFO Waveform:** É o controle responsável por escolher o tipo de onda que o oscilador vai usar paracontrole de LFO do som.
 
-:fontawesome-solid-file-waveform: **LFO SOURCE:** É o controle responsável por escolher qual tipo de parâmetro MIDI vai controlar oefeito gerado via LFO, jutamente da WAVEFORM.
+- [x]   **LFO Source:** É o controle responsável por escolher qual tipo de parâmetro MIDI vai controlar oefeito gerado via LFO, jutamente da WAVEFORM.
 
-:fontawesome-solid-file-waveform: **LFO DESTINATION:** Este controle diz para onde vai o sinal LFO gerado, em conjunto com com oparâmetro MIDI que foi determinado na seção acima.
+- [x]   **LFO Destination:** Este controle diz para onde vai o sinal LFO gerado, em conjunto com com oparâmetro MIDI que foi determinado na seção acima.
 
-:material-knob: **FILTER TYPE:** Escolhe o tipo de filtro de CUTOFF sonora que será usado no plugin.
+- [x]   **Filter Type:** Escolhe o tipo de filtro de CUTOFF sonora que será usado no plugin.
 
-:material-knob: **CUTOFF FREQ:** Determina a região de frequência em que o filtro de CUTOFF vai começar a atuar.
+- [x]   **Cutoff Freq:** Determina a região de frequência em que o filtro de CUTOFF vai começar a atuar.
 
-:material-menu-open: **VELOCITY CURVE:** Como o próprio nome sugere, este menu disponibiliza alguns ajustes de veloticy que se adaptamà sua necessidade.
+- [x]   **Veloticy Curve:** Como o próprio nome sugere, este menu disponibiliza alguns ajustes de veloticy que se adaptamà sua necessidade.
 
-:material-menu-open: **CPU MODE:** Este controle é responsável por otimizar o processamento da instância aberta deste plugin. Você pode ajustar de acordo com a sua preferência, tendo em vista que em alguns casos isto irá impactar diretamente no seu som, mesmoque de forma imperceptível.
+- [x]   **CPU Mode:** Este controle é responsável por otimizar o processamento da instância aberta deste plugin. Você pode ajustar de acordo com a sua preferência, tendo em vista que em alguns casos isto irá impactar diretamente no seu som, mesmoque de forma imperceptível.
 
-:material-menu-open: **VOICE MODE:** Controla a forma como as wavs se comportam, sendo elas em mono monofônico, polifônico ou glide.
+- [x]   **Voice Mode:** Controla a forma como as wavs se comportam, sendo elas em mono monofônico, polifônico ou glide.
 
-:material-knob: **GROUP GAIN:** Este controle é responsável por controlar o ganho de volume apenas do grupo/instrumento selecionadodentro do módulo de sons que estiver aberto no momento, não afetando de forma geral o volume dos demais grupos/instrumentos.
+- [x]   **Group Gain:** Este controle é responsável por controlar o ganho de volume apenas do grupo/instrumento selecionadodentro do módulo de sons que estiver aberto no momento, não afetando de forma geral o volume dos demais grupos/instrumentos.
 
-:material-knob: **GLIDE TIME:** Se o VOICE MODE estiver em mono ou glide, este parâmetro irá controlar a velocidade de "ligadura" queo efeito terá entre uma nota e outra. É muito semelhante a controles em plugins de Synths e outros.
+- [x]   **Glide Time:** Se o VOICE MODE estiver em mono ou glide, este parâmetro irá controlar a velocidade de "ligadura" queo efeito terá entre uma nota e outra. É muito semelhante a controles em plugins de Synths e outros.
 
 ## 06. Delay
 
 Esta seção vai controlar todos os parâmetros disponíveis para o efeito de Delay que se encontra dentro do Nordest Sampler.
 Abaixo estão listados todos os parâmetros:
 
-:fontawesome-solid-toggle-off: **TOGGLE ON/OFF:** Este botão liga e desliga o efeito;
+- [x]   **Toggle ON/OFF:** Este botão liga e desliga o efeito;
 
-:material-knob: **TIME:** Determina a velocidade que o efeito irá usar para se repetir, em milisegundos;
+- [x]   **Time:** Determina a velocidade que o efeito irá usar para se repetir, em milisegundos;
 
-:material-menu-open: **SYNC L/R** Determina a velocidade que o efeito se repetirá, seguindo o BPM que está definido dentro da sua DAW;
+- [x]   **Sync L/R** Determina a velocidade que o efeito se repetirá, seguindo o BPM que está definido dentro da sua DAW;
 
-:material-knob: **FEEDBACK:** Determina o número de repetições que o efeito de delay terá após ser iniciado;
+- [x]   **Feedback:** Determina o número de repetições que o efeito de delay terá após ser iniciado;
 
-:material-knob: **VELOTICY OVER**: Determina o volume que os serão tocados no geral. Se estiver completamente para a esquerda, o somirá soar de forma padrão. Se estiver completamente para esquerda, tudo será tocado como se estivesse no veloticy máximo;
+- [x]   **Veloticy Over**: Determina o volume que os serão tocados no geral. Se estiver completamente para a esquerda, o somirá soar de forma padrão. Se estiver completamente para esquerda, tudo será tocado como se estivesse no veloticy máximo;
 
 ## 07. Chorus - Distortion/Cab
 
 Nesta seção você tem acesso aos controles destinados aos efeitos de chorus, distorção e cabinet simulator.
 Abaixo estão listados todos os parâmetros:
 
-:fontawesome-solid-toggle-off: **TOGGLE ON/OFF:** Estes 3 botões ligam e desligam os efeitos desta seção;
+- [x]   **Toggle ON/OFF:** Estes 3 botões ligam e desligam os efeitos desta seção;
