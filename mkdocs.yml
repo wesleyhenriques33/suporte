@@ -70,7 +70,7 @@ extra:
           name: Não, mas pode ser melhorada.
           data: 0
           note: >- 
-            Agradecemos pelo seu Feedback!! Ajude-nos a melhorar enviando informações para o email [homestudio7rec@gmail.com](mailto:homestudio7rec@gmail.com).
+            Agradecemos pelo seu Feedback!! Ajude-nos a melhorar enviando informações para o email <a href=mailto:homestudio7rec@gmail.com"</a>.
   social:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/wesleyhenriques.oficial
