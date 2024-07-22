@@ -130,8 +130,8 @@ Abaixo estão listados todos os parâmetros:
     Para entender melhor este controle, basta fazer uso dele em suas extremindades, ele completamente para a esquerda, serão audíveis todas as frequências agudas, ele completamente para a direita, serão dispersas com mais rapidez as frequências agudas, trazendo assim a característica de um Reverb mais Dark no seu som.
 
 - [x]   **Width:** Este controle regula a abertura stereo do efeito de Reverb no som;
-- [x]   **LFO Rate:** Este controle não está relacionado ao reverb, mas sim aos controles avançados da aba [Instrument Settings](#05-instrument-settings), e tem o propósito de regular a velocidade do LFO que gera sinais como trêmolo, auto pan e outros;
-- [x]   **LFO Depth:** Este controle também está relacionado aos parâmetros de LFO da aba [Instrument Settings](#05-instrument-settings), o qual regula exatamente a intensidade do efeito gerado pelo LFO.
+- [x]   **LFO Rate:** Este controle não está relacionado ao reverb, mas sim aos controles avançados da aba [Instrument Settings](#05_instrument_settings), e tem o propósito de regular a velocidade do LFO que gera sinais como trêmolo, auto pan e outros;
+- [x]   **LFO Depth:** Este controle também está relacionado aos parâmetros de LFO da aba [Instrument Settings](#05_instrument_settings), o qual regula exatamente a intensidade do efeito gerado pelo LFO.
 
 
 ## 09. Veloticy Amp
