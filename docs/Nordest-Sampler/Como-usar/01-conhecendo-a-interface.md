@@ -10,7 +10,6 @@ Nesta imagem, listado em seções numéricas, temos todas as funcionalidades dis
 
 ![Nordest Sampler - Presentation](../../assets/images/nordest-sampler-presentation.svg)
 
-<<<<<<< HEAD
 **Seções do Nordest Sampler:**
 
 * [**01. Sound List**](#01_sound_list)
@@ -23,22 +22,7 @@ Nesta imagem, listado em seções numéricas, temos todas as funcionalidades dis
 * [**08. Reverb**](#08_reverb)
 * [**09. Velocity Amp**](#09_veloticy_amp)
 * [**10. Group List/Mode**](#10_group_listmode)
-=======
-![Page-1](../../assets/images/nordest-sampler-presentation.drawio)
 
-!!! info "Parâmetros de controle do plugin"
-
-    [01. Sound List](#01-sound-list)
-    [02. Master Volume](#02-master-volume) | Controla o volume geral de saída do plugin
-    [03. Sound Modify](#03-sound-modify) | Controles básicos attack, decay, sustain e release das amostras de áudio
-    [04. FX Mixer](#04-fx-mixer) | Controles de mix dos efeitos: Drive, Delay, Chorus e Reverb
-    [05. Instrument Settings](#05-instrument-settings) | Trás ajustes de controle de LFO avançados, veloticy e outros
-    [06. Delay](#06-delay) | Mostra os parâmetros de ajustes e controles do Delay
-    [07. Chorus/Distortion](#07-chorus---distortioncab) | Mostra os parâmetros de ajustes e controles do Chorus e Distortion
-    [08. Reverb](#08-reverb) | Mostra os parâmetros de ajustes e controles do Reverb
-    09. Velocity Amp | Trás ajustes mais precisos de controle do Velocity
-    10. Group List/Mode | Seletor de grupos manual com ajustes de seleção de grupos de forma personalizada
->>>>>>> bbf677bfc3a7b4bb5de322611d189e80dee2382c
 
 Nos próximos tópicos, traremos diversas informações completas sobre cada uma dessas Seções e como os seus ajustes podem afetar diretamente o som do seu instrumento virtual durante sua performance ou produção musical.
 
@@ -149,7 +133,7 @@ Abaixo estão listados todos os parâmetros:
 - [x]   **LFO Rate:** Este controle não está relacionado ao reverb, mas sim aos controles avançados da aba [Instrument Settings](#05-instrument-settings), e tem o propósito de regular a velocidade do LFO que gera sinais como trêmolo, auto pan e outros;
 - [x]   **LFO Depth:** Este controle também está relacionado aos parâmetros de LFO da aba [Instrument Settings](#05-instrument-settings), o qual regula exatamente a intensidade do efeito gerado pelo LFO.
 
-<<<<<<< HEAD
+
 ## 09. Veloticy Amp
 
 Nesta seção temos somente 2 controles fundamentais, sendo eles:
@@ -192,6 +176,3 @@ Como podemos ver, há diversas opções disponíveis para seleção dos grupos d
 
     Por conta de algumas DAW's terem certos bugs quanto ao funcionamento via MIDI de comandos como estes, os modos mais recomendados para se utilizar são apenas os modos de Controller, Always, Channel e Manual.
 
-=======
-##
->>>>>>> bbf677bfc3a7b4bb5de322611d189e80dee2382c
