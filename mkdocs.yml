@@ -45,7 +45,6 @@ plugins:
       cards_layout_options:
         background_color: "#ffc105"
         logo: docs/assets/images/logo.svg
-      enabled: !ENV [CI, false]
   - tags
   - offline
 
