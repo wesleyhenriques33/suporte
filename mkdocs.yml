@@ -57,6 +57,20 @@ extra:
   analytics:
     provider: google
     property: G-451199504
+    analytics: 
+    feedback:
+      title: Esta informação foi útil?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Sim, foi muito útil!
+          data: 1
+          note: >-
+            Agradecemos pelo seu Feedback!!
+        - icon: material/emoticon-sad-outline
+          name: Não, mas pode ser melhorada.
+          data: 0
+          note: >- 
+            Agradecemos pelo seu Feedback!! Ajude-nos a melhorar enviando informações para o email <a href="..." target="_blank" rel="noopener">feedback form</a>.
   social:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/wesleyhenriques.oficial
