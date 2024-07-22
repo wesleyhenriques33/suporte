@@ -20,5 +20,4 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
-      - run: pip install mkdocs-drawio-file
       - run: mkdocs gh-deploy --force

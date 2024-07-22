@@ -33,19 +33,19 @@ theme:
       accent: indigo
 
 plugins:
-  - git-revision-date-localized:
-      enable_creation_date: true
-  - offline
-  - info:
-      enabled: true
-      enabled_on_serve: true
+  - search
   - social:
       cards: true
+      cards_layout_options:
+        background_color: "#ffc105"
+        logo: docs/assets/images/logo.svg
       enabled: !ENV [CI, false]
+  - tags
+  - offline
   - search:
       lang: pt
+  - drawio_file
   - print-site
-  - tags
 
 extra:
   social:
