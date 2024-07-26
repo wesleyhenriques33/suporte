@@ -5,6 +5,10 @@ description: Uma lista completa com todos os comandos MIDI disponíveis no proto
 
 ## Olá músicos!
 
+Esta é uma página de suporte para conhecimentos voltados ao mapeamento MIDI Controller. Você tem aqui à sua disposição, todas as mensagens MIDI disponíveis para o protocolo padrão dessa linguagem tão fantástica.
+
+Aproveite ao máximo, e compartilhe com mais alguém também!
+
 |MIDI CC #|MIDI CC PURPOSE|VALUE|MIDI CC DESCRIPTION|
 |:----|:----|:----|:----|
 |0|Bank Select (MSB)|0-127|Allows user to switch bank for patch selection. Program change used with Bank Select. MIDI can access 16,384 patches per MIDI channel.|
@@ -74,10 +78,8 @@ description: Uma lista completa com todos os comandos MIDI disponíveis no proto
 |64|Damper Pedal on/off|≤63 off, ≥64 on|On/off switch that controls sustain pedal. Nearly every synth will react to CC 64. (See also Sostenuto CC 66)|
 |65|Portamento on/off|≤63 off, ≥64 on|On/off switch|
 |66|Sostenuto Pedal on/off|≤63 off, ≥64 on|On/off switch – Like the Sustain controller (CC 64), However, it only holds notes that were “On” when the pedal was pressed. People use it to “hold” chords” and play melodies over the held chord.|
-|67|Soft Pedal on/off|≤63 off, ≥64 on|On/off switch
-– Lowers the volume of notes played.|
-|68|Legato FootSwitch|≤63 off, ≥64 on|On/off switch
-– Turns Legato effect between 2 subsequent notes on or off.|
+|67|Soft Pedal on/off|≤63 off, ≥64 on|On/off switch – Lowers the volume of notes played.|
+|68|Legato FootSwitch|≤63 off, ≥64 on|On/off switch – Turns Legato effect between 2 subsequent notes on or off.|
 |69|Hold 2|≤63 off, ≥64 on|Another way to “hold notes” (see MIDI CC 64 and MIDI CC 66). However notes fade out according to their release parameter rather than when the pedal is released.|
 |70|Sound Controller 1|0-127|Usually controls the way a sound is produced. Default = Sound Variation.|
 |71|Sound Controller 2|0-127|Allows shaping the Voltage Controlled Filter (VCF). Default = Resonance also (Timbre or Harmonics)|
@@ -89,15 +91,10 @@ description: Uma lista completa com todos os comandos MIDI disponíveis no proto
 |77|Sound Controller 8|0-127|Generic – Some manufacturers may use to further shave their sounds.|
 |78|Sound Controller 9|0-127|Generic – Some manufacturers may use to further shave their sounds.|
 |79|Sound Controller 10|0-127|Generic – Some manufacturers may use to further shave their sounds.|
-|80|General Purpose
-MIDI CC Controller|0-127|Decay Generic or on/off switch
-≤63 off, ≥64 on|
-|81|General Purpose MIDI CC Controller|0-127|Hi-Pass Filter Frequency or Generic on/off switch
-≤63 off, ≥64 on|
-|82|General Purpose MIDI CC Controller|0-127|Generic on/off switch
-≤63 off, ≥64 on|
-|83|General Purpose MIDI CC Controller|0-127|Generic on/off switch
-≤63 off, ≥64 on|
+|80|General Purpose MIDI CC Controller|0-127|Decay Generic or on/off switch - ≤63 off, ≥64 on|
+|81|General Purpose MIDI CC Controller|0-127|Hi-Pass Filter Frequency or Generic on/off switch - ≤63 off, ≥64 on|
+|82|General Purpose MIDI CC Controller|0-127|Generic on/off switch - ≤63 off, ≥64 on|
+|83|General Purpose MIDI CC Controller|0-127|Generic on/off switch - ≤63 off, ≥64 on|
 |84|Portamento CC Control|0-127|Controls the amount of Portamento.|
 |85|Undefined|—| |
 |86|Undefined|—| |
