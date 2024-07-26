@@ -22,7 +22,7 @@ Neste primeiro lançamento você tem a disposição os módulos:
 
     Veja como instalar o Nordest Sampler de forma rápida e simples, em menos de 5 minutos
 
-    [:octicons-arrow-right-24: Veja mais](Instalação.md)
+    [:octicons-arrow-right-24: Veja mais](como-instalar.md)
 
 </div>
 
