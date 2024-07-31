@@ -8,11 +8,12 @@ theme:
   icon: assets/images/logo.svg
   features:
     - announce.dismiss
+    - navigation.instant
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
     - navigation.top
     - navigation.footer
+    - toc.integrate
     - search.suggest
     - search.highlight
     - search.share
