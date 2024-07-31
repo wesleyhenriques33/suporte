@@ -1,5 +1,5 @@
 site_name: Suporte
-site_url: https://wesleyhenriques33.github.io/suporte/
+site_url: https://suporte.wesleyhenriques.com/
 repo_url: https://wesleyhenriques33.github.io/suporte/
 repo_name: Wesley Henriques - Suporte
 theme:
@@ -50,6 +50,25 @@ plugins:
       cards_layout_options:
         background_color: "#ffc105"
         logo: docs/assets/images/logo.svg
+  - blog:
+      pagination_per_page: 5
+      pagination_url_format: "{page}"
+      categories_name: Categorias
+      categories_url_format: "category/{slug}"
+      categories_toc: true
+      categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      archive_name: Postagens
+      archive_date_format: yyyy
+      archive_url_format: "archive/{date}"
+      archive_toc: true
+      blog_toc: true
+      post_date_format: full
+      post_url_format: "{categories}/{slug}"
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - tags
   - offline
 
