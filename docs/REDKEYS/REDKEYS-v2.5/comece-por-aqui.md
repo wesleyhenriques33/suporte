@@ -32,9 +32,9 @@ Abaixo estão alguns tópicos para que você possa ter um melhor aprendizado e c
 
 <div class="grid cards" markdown>
 
-- :fontawesome-solid-display: [__Veja aqui__ todos os timbres](../REDKEYS%20v2.5/Timbres/01.%20Pianos.md)
-- :material-check-decagram: [__Recursos exclusivos__ da versão REDKEYS v2.5](../REDKEYS%20v2.5/Recursos%20exclusivos/REDKEYS%20Intro.md)
-- :material-frequently-asked-questions: [__Dúvidas frequentes__ em um único lugar](../REDKEYS%20v2.5/Recursos%20exclusivos/REDKEYS%20Intro.md)
-- :fontawesome-brands-square-whatsapp: [__Suporte direto__ via WhatsApp](../REDKEYS%20v2.5/Recursos%20exclusivos/REDKEYS%20Intro.md)
+- :fontawesome-solid-display: [__Veja aqui__ todos os timbres](../REDKEYS-v2.5/timbres/01-Pianos.md)
+- :material-check-decagram: [__Recursos exclusivos__ da versão REDKEYS v2.5](../REDKEYS-v2.5/recursos-exclusivos/redkeys-intro.md)
+- :material-frequently-asked-questions: [__Dúvidas frequentes__ em um único lugar](../REDKEYS-v2.5/duvidas-frequentes.md)
+- :fontawesome-brands-square-whatsapp: [__Suporte direto__ via WhatsApp](https://wa.me/5547920017909)
 
 </div>

@@ -41,6 +41,13 @@ theme:
       primary: black
       accent: indigo
 
+  nav:
+  - Home: index.md
+  - Install: install.md
+  - Usage: usage.md
+  - Blog:
+     - blog/index.md
+
 plugins:
   - privacy
   - glightbox
@@ -52,19 +59,13 @@ plugins:
         - stopWordFilter
         - trimmer
   - social:
-      # enabled: !ENV [CI, false]
+      enabled: !ENV [CI, false]
       cards_layout_options:
         background_color: "#ffc105"
         logo: docs/assets/images/logo.svg
   - blog:
       pagination_per_page: 5
       pagination_url_format: "{page}"
-      categories_name: Categorias
-      categories_url_format: "category/{slug}"
-      categories_toc: true
-      categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
       archive_name: Postagens
       archive_date_format: yyyy
       archive_url_format: "archive/{date}"
@@ -73,6 +74,12 @@ plugins:
       post_date_format: full
       post_url_format: "{categories}/{slug}"
       post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      categories_name: Categorias
+      categories_url_format: "category/{slug}"
+      categories_toc: true
+      categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
   - tags
