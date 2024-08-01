@@ -1,7 +1,6 @@
 ---
 description: Todos os recursos disponíveis na interface gráfica do Nordest Sampler.
 icon: fontawesome/solid/display
-comments: true
 ---
 
 # Conhecendo a interface
