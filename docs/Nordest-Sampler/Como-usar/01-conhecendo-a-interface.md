@@ -1,11 +1,17 @@
 ---
 description: Todos os recursos disponíveis na interface gráfica do Nordest Sampler.
 icon: fontawesome/solid/display
+comments: true
 ---
 
 # Conhecendo a interface
 
 O [Nordest Sampler](https://www.youtube.com/watch?v=_G5LDz5CN1I) possui uma estrutura muito fácil e simples de ser utilizada e programada ao seu gosto, conforme a sua necessidade. Todas as configurações disponíveis para o plugin estão sendo mostradas em sua totalidade na interface gráfica de abertura do mesmo, sendo possível assim acessar qualquer um dos seus recursos de maneira muito rápida.
+
+<figure>
+  <figcaption>Acompanhe a leitura em áudio:</figcaption>
+  <audio controls src="../../assets/audio/Nordest Sampler (Tutorial).m4a"></audio>
+</figure>
 
 Nesta imagem, listado em seções numéricas, temos todas as funcionalidades disponíveis para uso no Nordest Sampler:
 
@@ -177,3 +183,18 @@ Como podemos ver, há diversas opções disponíveis para seleção dos grupos d
 
     Por conta de algumas DAW's terem certos bugs quanto ao funcionamento via MIDI de comandos como estes, os modos mais recomendados para se utilizar são apenas os modos de Controller, Always, Channel e Manual.
 
+<script src="https://giscus.app/client.js"
+        data-repo="wesleyhenriques33/suporte"
+        data-repo-id="R_kgDOMYo55w"
+        data-category="General"
+        data-category-id="DIC_kwDOMYo5584ChNMG"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="pt"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -1,4 +1,5 @@
 ---
+title: Nordest Sampler (Documentation)
 description: Documentação de apoio e Manual de uso
 icon: simple/rocket
 ---
