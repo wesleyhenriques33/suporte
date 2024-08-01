@@ -53,7 +53,7 @@ plugins:
         - stopWordFilter
         - trimmer
   - social:
-      enabled: !ENV [CI, false]
+      # enabled: !ENV [CI, false]
       cards_layout_options:
         background_color: "#ffc105"
         logo: docs/assets/images/logo.svg
