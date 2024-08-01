@@ -1,9 +1,10 @@
 site_name: Suporte
 site_url: https://suporte.wesleyhenriques.com/
-repo_url: https://suporte.wesleyhenriques.com/
+repo_url: https://github.com/wesleyhenriques33/suporte
 repo_name: Wesley Henriques - Suporte
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/images/logo.svg
   icon: assets/images/logo.svg
   features:
@@ -52,7 +53,7 @@ plugins:
         - stopWordFilter
         - trimmer
   - social:
-      # enabled: !ENV [CI, false]
+      enabled: !ENV [CI, false]
       cards_layout_options:
         background_color: "#ffc105"
         logo: docs/assets/images/logo.svg
