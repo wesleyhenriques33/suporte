@@ -26,8 +26,6 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  hooks:
-  - hooks/socialmedia.py
   language: pt-BR
   palette:
     - scheme: default
@@ -79,6 +77,9 @@ plugins:
           case: lower
   - tags
   - offline
+
+hooks:
+  - hooks/socialmedia.py
 
 extra:
   analytics:
