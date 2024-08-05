@@ -1,3 +1,8 @@
+---
+icon: fontawesome/solid/display
+---
+
+
 # REDKEYS Intro
 
 A versão Intro existente dentro do Pack [REDKEYS v2.5](https://youtu.be/r2r32nUes9g) dá a liberdade ao usuário para criar ele mesmo a sua própria seção de timbres completamente personalizada, de forma muito prática e fácil.

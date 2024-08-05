@@ -85,6 +85,7 @@ hooks:
 extra:
   analytics:
     provider: custom
+    property: foobar
     feedback:
       title: Esta informação foi útil?
       ratings:

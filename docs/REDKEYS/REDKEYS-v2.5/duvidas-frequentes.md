@@ -1,3 +1,7 @@
+---
+icon: material/check-decagram
+---
+
 # Dúvidas Frequentes
 
 Abaixo estão algumas dúvidas que podem surgir ao longo do uso do pack. Para ler cada uma delas basta clicar nas caixas e expandir uma por uma das quais desejar saber.
