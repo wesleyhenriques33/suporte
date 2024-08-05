@@ -60,7 +60,7 @@ plugins:
   - blog:
       pagination_per_page: 5
       pagination_url_format: "{page}"
-      archive_name: Postagens
+      archive_name: Arquivo
       archive_date_format: yyyy
       archive_url_format: "archive/{date}"
       archive_toc: true
@@ -84,8 +84,7 @@ hooks:
 
 extra:
   analytics:
-    provider: google
-    property: G-451199504
+    provider: custom
     feedback:
       title: Esta informação foi útil?
       ratings:
